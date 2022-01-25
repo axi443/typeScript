@@ -1,0 +1,50 @@
+/*{
+  // 包含
+  "include": ["../typescript"],
+  // 排除
+  "exclude": [],
+  // 编译器的选项
+  "compilerOptions": {
+    // 指定编译成ES版本
+    "target": "ES3",
+    // 指定要使用的模块化规范
+    "module": "es2015",
+    // 指定项目中使用的库
+    // "lib": ["DOM"],
+    // 指定编译后文件目录
+    "outDir": "",
+    // 将代码合并为一个文件
+    // "outFile": "",
+    // 是否编译js文件
+    "allowJs": true,
+    // 是否检查js代码规范
+    "checkJs": true,
+    // 是否移除注释
+    "removeComments": false,
+    // 不生成编译后的文件
+    "noEmit": false,
+    // 当有错误时，不生成编译后文件
+    "noEmitOnError": false,
+    // 用来设置编译后的文件是否使用严格模式
+    "alwaysStrict": false,
+    // 不愿徐隐式的any类型
+    "noImplicitAny": false,
+    // 不允许不明确类型的this，需明确this指向
+    "noImplicitThis": false,
+    // 严格检查空值
+    "strictNullChecks": false,
+    // 所有严格检查的总开关
+    "strict": true
+  }
+}*/
+
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "target": "ES2015",
+    "strict": true,
+    "outDir": "",
+    "noEmitOnError": true
+  },
+  "include": ["../typescript"]
+}
